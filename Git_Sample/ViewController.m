@@ -14,6 +14,9 @@
 
 @implementation ViewController
 
+@synthesize lblName;
+@synthesize lblAddress;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
