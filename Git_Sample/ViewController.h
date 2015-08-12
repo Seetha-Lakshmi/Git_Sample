@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestClass.h"
 
 @interface ViewController : UIViewController {
     
@@ -15,6 +16,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *lblName;
 @property (nonatomic, retain) IBOutlet UILabel *lblAddress;
 
+ @property (nonatomic, strong) TestClass *testClass;
 
 @end
 
