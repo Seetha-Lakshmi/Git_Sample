@@ -16,7 +16,10 @@
 @property (nonatomic, retain) IBOutlet UILabel *lblName;
 @property (nonatomic, retain) IBOutlet UILabel *lblAddress;
 
+@property (nonatomic, retain) IBOutlet UILabel *lblPhoneNo;
+
  @property (nonatomic, strong) TestClass *testClass;
+
 
 @end
 

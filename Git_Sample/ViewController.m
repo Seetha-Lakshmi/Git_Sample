@@ -20,6 +20,7 @@
 
 @synthesize lblName;
 @synthesize lblAddress;
+@synthesize lblPhoneNo;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
